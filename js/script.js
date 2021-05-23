@@ -6,6 +6,10 @@ angular.module('ngRouteExample', ['ngRoute'])
         templateUrl: 'home.html',
         controller: 'HomeController'
     }).
+    when('/experience', {
+        templateUrl: 'experience.html',
+        controller: 'HomeController'
+    }).
     when('/cv', {
         templateUrl: 'cv.html',
         controller: 'HomeController'

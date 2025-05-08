@@ -10,7 +10,7 @@ angular.module('ngRouteExample', ['ngRoute'])
         templateUrl: 'mylife.html',
         controller: 'HomeController'
     }).
-    when('/mylife', {
+    when('/mycat', {
         templateUrl: 'mycat.html',
         controller: 'HomeController'
     }).

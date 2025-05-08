@@ -10,6 +10,10 @@ angular.module('ngRouteExample', ['ngRoute'])
         templateUrl: 'mylife.html',
         controller: 'HomeController'
     }).
+    when('/mylife', {
+        templateUrl: 'mycat.html',
+        controller: 'HomeController'
+    }).
     otherwise({
         redirectTo: '/home'
     });
